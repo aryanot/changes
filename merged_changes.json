@@ -1,8 +1,19 @@
-
-Total number of Global IDs inn: 49
-
-Total number of system: 1147
 [
+    {
+        "global_id": "9fa279871cd5c88c364c19cd7a4dd9f3",
+        "display_label": "lit-vams-p023",
+        "changed_properties": {
+            "dns_servers": [
+                "10.136.209.73",
+                "150.105.166.106",
+                "10.136.209.74"
+            ],
+            "node_role": [
+                "server",
+                "virtualized_system"
+            ]
+        }
+    },
     {
         "global_id": "f55dae43224a84ccdc8a13d5e9809334",
         "display_label": "all-vams-b055",
@@ -32,21 +43,6 @@ Total number of system: 1147
         "global_id": "73c5eb2f0312ca29c4d04afb6aebd2f0",
         "display_label": "all-vwms-z004",
         "changed_properties": {
-            "node_role": [
-                "server",
-                "virtualized_system"
-            ]
-        }
-    },
-    {
-        "global_id": "9fa279871cd5c88c364c19cd7a4dd9f3",
-        "display_label": "lit-vams-p023",
-        "changed_properties": {
-            "dns_servers": [
-                "10.136.209.73",
-                "150.105.166.106",
-                "10.136.209.74"
-            ],
             "node_role": [
                 "server",
                 "virtualized_system"
@@ -95,6 +91,16 @@ Total number of system: 1147
         }
     },
     {
+        "global_id": "499f1ff56220ee1d9e4c9ffe4ca012c7",
+        "display_label": "wok-vams-p101",
+        "changed_properties": {
+            "node_role": [
+                "server",
+                "virtualized_system"
+            ]
+        }
+    },
+    {
         "global_id": "67bb7fd651de4ab62e5535462dbcb6f9",
         "display_label": "all-vams-p037",
         "changed_properties": {
@@ -112,51 +118,9 @@ Total number of system: 1147
         }
     },
     {
-        "global_id": "499f1ff56220ee1d9e4c9ffe4ca012c7",
-        "display_label": "wok-vams-p101",
+        "global_id": "4f651607990af5dcb075f701598742ec",
+        "display_label": "all-vams-p280",
         "changed_properties": {
-            "node_role": [
-                "server",
-                "virtualized_system"
-            ]
-        }
-    },
-    {
-        "global_id": "49a18a4e96aa52f625ecc9e0ee5732e7",
-        "display_label": "lit-vams-b060",
-        "changed_properties": {
-            "dns_servers": [
-                "150.105.198.137",
-                "150.105.166.106",
-                "150.105.166.138",
-                "150.105.166.137"
-            ]
-        }
-    },
-    {
-        "global_id": "b28dd1a34836d81f6f4e0daad4f469a1",
-        "display_label": "lit-vams-p108",
-        "changed_properties": {
-            "dns_servers": [
-                "10.136.209.73",
-                "10.136.209.74",
-                "150.105.166.137",
-                "150.105.166.106"
-            ],
-            "node_role": [
-                "server",
-                "virtualized_system"
-            ]
-        }
-    },
-    {
-        "global_id": "bb3bc8bad6919cb96cea430540d0c3d1",
-        "display_label": "all-vams-u056",
-        "changed_properties": {
-            "dns_servers": [
-                "150.105.198.137",
-                "150.105.198.138"
-            ],
             "node_role": [
                 "server",
                 "virtualized_system"
@@ -169,6 +133,26 @@ Total number of system: 1147
         "changed_properties": {
             "node_role": [
                 "Server",
+                "server"
+            ]
+        }
+    },
+    {
+        "global_id": "43ed8f24909a4833ce1ecb0eed665b68",
+        "display_label": "all-vams-b022",
+        "changed_properties": {
+            "node_role": [
+                "server",
+                "virtualized_system"
+            ]
+        }
+    },
+    {
+        "global_id": "43cbf66ac8f163bcc69f87820755f3a3",
+        "display_label": "lit-vaswftm-p009",
+        "changed_properties": {
+            "node_role": [
+                "virtualized_system",
                 "server"
             ]
         }
@@ -198,12 +182,38 @@ Total number of system: 1147
         }
     },
     {
+        "global_id": "49a18a4e96aa52f625ecc9e0ee5732e7",
+        "display_label": "lit-vams-b060",
+        "changed_properties": {
+            "dns_servers": [
+                "150.105.198.137",
+                "150.105.166.106",
+                "150.105.166.138",
+                "150.105.166.137"
+            ]
+        }
+    },
+    {
         "global_id": "bb879058a28b353fcf9654d32f3bd174",
         "display_label": "wok-vams-p120",
         "changed_properties": {
             "node_role": [
                 "virtualized_system",
                 "server"
+            ]
+        }
+    },
+    {
+        "global_id": "bb3bc8bad6919cb96cea430540d0c3d1",
+        "display_label": "all-vams-u056",
+        "changed_properties": {
+            "dns_servers": [
+                "150.105.198.137",
+                "150.105.198.138"
+            ],
+            "node_role": [
+                "server",
+                "virtualized_system"
             ]
         }
     },
@@ -239,29 +249,15 @@ Total number of system: 1147
         }
     },
     {
-        "global_id": "43ed8f24909a4833ce1ecb0eed665b68",
-        "display_label": "all-vams-b022",
+        "global_id": "b28dd1a34836d81f6f4e0daad4f469a1",
+        "display_label": "lit-vams-p108",
         "changed_properties": {
-            "node_role": [
-                "server",
-                "virtualized_system"
-            ]
-        }
-    },
-    {
-        "global_id": "43cbf66ac8f163bcc69f87820755f3a3",
-        "display_label": "lit-vaswftm-p009",
-        "changed_properties": {
-            "node_role": [
-                "virtualized_system",
-                "server"
-            ]
-        }
-    },
-    {
-        "global_id": "4f651607990af5dcb075f701598742ec",
-        "display_label": "all-vams-p280",
-        "changed_properties": {
+            "dns_servers": [
+                "10.136.209.73",
+                "10.136.209.74",
+                "150.105.166.137",
+                "150.105.166.106"
+            ],
             "node_role": [
                 "server",
                 "virtualized_system"
@@ -371,31 +367,6 @@ Total number of system: 1147
         }
     },
     {
-        "global_id": "0dc1f26db8e74a57e7b64dd22e72a60c",
-        "display_label": "amap0012",
-        "changed_properties": {
-            "node_role": [
-                "server",
-                "virtualized_system"
-            ]
-        }
-    },
-    {
-        "global_id": "49f5137437ef9009fe52d574535ba4c7",
-        "display_label": "ohap0023",
-        "changed_properties": {
-            "dns_servers": [
-                "204.90.147.12",
-                "198.151.186.51",
-                "204.90.224.1"
-            ],
-            "node_role": [
-                "server",
-                "virtualized_system"
-            ]
-        }
-    },
-    {
         "global_id": "4979aa5d0455a165bc1fec49b80eaa37",
         "display_label": "lit-vams-b006",
         "changed_properties": {
@@ -438,12 +409,37 @@ Total number of system: 1147
         }
     },
     {
+        "global_id": "0dc1f26db8e74a57e7b64dd22e72a60c",
+        "display_label": "amap0012",
+        "changed_properties": {
+            "node_role": [
+                "server",
+                "virtualized_system"
+            ]
+        }
+    },
+    {
         "global_id": "59b94ff61e58343cc89cd3e4f99d38b7",
         "display_label": "ams-vafsm-p002",
         "changed_properties": {
             "dns_servers": [
                 "192.168.34.6",
                 "192.168.34.5"
+            ]
+        }
+    },
+    {
+        "global_id": "49f5137437ef9009fe52d574535ba4c7",
+        "display_label": "ohap0023",
+        "changed_properties": {
+            "dns_servers": [
+                "204.90.147.12",
+                "198.151.186.51",
+                "204.90.224.1"
+            ],
+            "node_role": [
+                "server",
+                "virtualized_system"
             ]
         }
     },
@@ -475,6 +471,17 @@ Total number of system: 1147
         }
     },
     {
+        "global_id": "4fc776969fab6b3667e8c6ccd1a4a8d2",
+        "display_label": "all-vams-s061",
+        "changed_properties": {
+            "dns_servers": [
+                "10.138.209.74",
+                "10.138.209.73",
+                "150.105.198.106"
+            ]
+        }
+    },
+    {
         "global_id": "0dbd58e71e0b89730d6be7af02929494",
         "display_label": "lit-vams-b085",
         "changed_properties": {
@@ -501,17 +508,6 @@ Total number of system: 1147
             "node_role": [
                 "virtualized_system",
                 "server"
-            ]
-        }
-    },
-    {
-        "global_id": "4fc776969fab6b3667e8c6ccd1a4a8d2",
-        "display_label": "all-vams-s061",
-        "changed_properties": {
-            "dns_servers": [
-                "10.138.209.74",
-                "10.138.209.73",
-                "150.105.198.106"
             ]
         }
     },
@@ -569,29 +565,6 @@ Total number of system: 1147
         }
     },
     {
-        "global_id": "9f991c868e732628873e0a536bc4120b",
-        "display_label": "bp-vams-p028",
-        "changed_properties": {
-            "node_role": [
-                "virtualized_system",
-                "server"
-            ]
-        }
-    },
-    {
-        "global_id": "4fc26307f2e1704c5b46222557464f75",
-        "display_label": "all-vams-p038",
-        "changed_properties": {
-            "dns_servers": [
-                "150.105.198.138",
-                "150.105.198.137",
-                "150.105.198.106",
-                "10.138.209.73",
-                "10.138.209.74"
-            ]
-        }
-    },
-    {
         "global_id": "b278812e5be7e918f4e3dd790edc1e0f",
         "display_label": "ohio492",
         "changed_properties": {
@@ -608,12 +581,35 @@ Total number of system: 1147
         }
     },
     {
+        "global_id": "9f991c868e732628873e0a536bc4120b",
+        "display_label": "bp-vams-p028",
+        "changed_properties": {
+            "node_role": [
+                "virtualized_system",
+                "server"
+            ]
+        }
+    },
+    {
         "global_id": "9f5e5e7f0755655c0dc81a3c0622e660",
         "display_label": "am2-vams-p100",
         "changed_properties": {
             "node_role": [
                 "server",
                 "virtualized_system"
+            ]
+        }
+    },
+    {
+        "global_id": "4fc26307f2e1704c5b46222557464f75",
+        "display_label": "all-vams-p038",
+        "changed_properties": {
+            "dns_servers": [
+                "150.105.198.138",
+                "150.105.198.137",
+                "150.105.198.106",
+                "10.138.209.73",
+                "10.138.209.74"
             ]
         }
     },
